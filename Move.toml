@@ -1,0 +1,12 @@
+[package]
+name = "liquidity_pool"
+version = "1.0.0"
+
+[addresses]
+mine = "0x1337"
+lp_account = "0xbbc8b7674b319b6326e50352f70b0b508c4311ff0add479e0eddcac02896b012"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
